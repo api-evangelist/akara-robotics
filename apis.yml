@@ -1,7 +1,26 @@
 aid: akara-robotics
 name: Akara Robotics
-description: Akara Robotics is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Akara Robotics (akara.ai) is a healthcare automation company building an integrated
+  hardware-plus-AI platform for hospitals across Europe and the United States. Its AI Room Sensor
+  passively captures surgical event data in the operating room as a hospital data layer, an AI
+  platform turns that operational data into real-time staff coordination and actionable insights,
+  and Violet, its clinically validated autonomous robot, uses high-intensity UV light to disinfect
+  surfaces up to six times faster than manual cleaning. The company emphasizes hardware-level data
+  deidentification for privacy compliance, single-provider delivery of the full system, no upfront
+  capital cost, and installation in under an hour. Akara publishes a marketing and careers site but
+  no public developer API, documentation, or OpenAPI surface at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/kBYzoVlzISkJAoLupwzm0qAQ.png
 url: https://raw.githubusercontent.com/api-evangelist/akara-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +33,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Robotics
+- Healthcare
+- Automation
+- Artificial Intelligence
+- Hospitals
+- Disinfection
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/akara-robotics-domain-security.yml
 - type: Website
   url: https://akara.ai/
+- type: Blog
+  url: https://akara.ai/blogs
+- type: Support
+  url: https://akara.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/akara-ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
