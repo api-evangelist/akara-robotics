@@ -9,6 +9,17 @@ description: Akara Robotics (akara.ai) is a healthcare automation company buildi
   deidentification for privacy compliance, single-provider delivery of the full system, no upfront
   capital cost, and installation in under an hour. Akara publishes a marketing and careers site but
   no public developer API, documentation, or OpenAPI surface at this time.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
